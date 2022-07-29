@@ -7,10 +7,13 @@
          padding: 82px;
     margin-top: 40px;
 }
+.hro{
+margin:0;
+}
 
 .svg-border-rounded svg{
      width: 100%;
-     height: 3rem;}
+     height: 2rem;}
 
 .sec{
      padding: 80px;
@@ -20,10 +23,11 @@
 }
 section.kit-pro .wrapper {
     background: #212529;
-    padding-top: 100px;
+    padding-top: 180px;
+margin-top: -120px;
 }
 .kit-pro svg{
        width: 100%;
-     height: 3rem;
+     height: 2rem;
 }
 
