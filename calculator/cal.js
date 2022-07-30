@@ -1,8 +1,14 @@
 
-// let operation;
+
 let operationToperform;
 function addNumber(a) {
     let result = document.getElementById('result').value += a;
+
+    // for(let j=a; j<=z ; j++){
+    //   result=j.CharCodeAt();
+    //     document.getElementById('result').value = "";
+
+    // }
     for (let i = 0; i < result.length; i++) {
         if (result[i] == "*") {
             operationToperform = "multiply";
@@ -17,11 +23,19 @@ function addNumber(a) {
             operationToperform = "sub";
         }
     }
+
     
     if (a == "clear") {
         document.getElementById('result').value = "";
     }
 }
+// for(let j=a; j<=z ; j++){
+//     if( result==j.CharCodeAt()){
+//         document.getElementById('result').value = "";
+
+//     }
+// }
+
 function equal() {
     let result = document.getElementById('result').value;
 
@@ -49,4 +63,9 @@ function equal() {
         const finalresult = check - check2;
         document.getElementById('result').value = finalresult;
     }
+}
+
+function numbersAdd(input) {
+    var numbersOnly = /[a-z]/g;
+    input.value = input.value.replace(numbersOnly, '');
 }

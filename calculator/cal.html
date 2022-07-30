@@ -10,7 +10,7 @@
     <div class="container">
     <h1>CALCULATOR</h1>
     <div class="cal">
-        <input type="text" id="result" placeholder="Enter value">
+        <input type="text" id="result" onkeyup="numbersAdd(this)" placeholder="Enter value">
         
     <table>
         <tr>
@@ -40,7 +40,7 @@
         
         </tr>
     </table>
-    <button onclick="addNumber('clear')">clear</button>
+    <button class="but" onclick="addNumber('clear')">clear</button>
    
     
 </div>
