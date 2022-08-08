@@ -16,14 +16,14 @@ body{
     color:steelblue;
 }
 .form{
-     padding: 30px;}
+     padding: 20px;}
 
 
      .input1{
-     margin-left: 30px;
+     margin-left: 18px;
      }
      .input2{
-          margin-left: 13px;
+          margin-left: 1px;
      }
      .first{
           margin-bottom: 20px;
@@ -38,14 +38,14 @@ body{
           justify-content: ;
      }
      .but{
-          margin-left: 50px;
+          margin-left: 40px;
      }
      .but button{
-          margin-right: 21px;
+          margin-right:17px;
           width: 25px;
      }
      .input3{
-          margin-left: 78px;
+          margin-left: 64px;
      }
  input {
      padding: 5px;
