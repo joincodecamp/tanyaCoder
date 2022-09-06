@@ -1,13 +1,16 @@
-// const firstName = "tanya"
-// const lastName = "kashyap"
-// const country = "india"
-// const city = "mohali"
-// const age = 20;
-// const isMarried = false;
-// const year = new Date().getFullYear();
+const firstName = "tanya"
+const lastName = "kashyap"
+const country = "india"
+const city = "mohali"
+const age = 20;
+const isMarried = false;
+const year = new Date().getFullYear();
 // console.log(year);
 
-// let vars = [firstName, lastName, country, city, age, isMarried, year];
+let vars = [firstName, lastName, country, city, age, isMarried, year];
+console.log(firstName===lastName&& age===city )
+
+
 // vars.forEach(function (element) {
 //     console.log(typeof element);
 // });
@@ -27,6 +30,8 @@
 // console.log(A)
 
 // console.log("5...")
+
+
 
 // console.log('1', 4>3)
 // console.log( '2',4>=3)
@@ -58,6 +63,13 @@
 // console.log( "date: ",now.getDate())
 // console.log( "day: ",now.getDay())
 // console.log( "hour: ",now.getHours())
+// function slopeBetweenPoints (x1, y1, x2, y2) {
+//     let m = y2 - y1 / x2 - x1; // 10 - 2 / 6 - 2
+//     console.log(`m=y2-y1/x2-x1 => ${m}=${y2}-${y1}/${x2}-${x1}`)
+//     return m;
+// };
+// createButton('6. slopeBetweenPoints', slopeBetweenPoints(2,2,6,10));
+
 
 
 
@@ -109,38 +121,56 @@
  
 // console.log(m)
 
-function name (fst, last){
-    let s =" ";
- let full = fst+s+last;
- return full;
+// function name (fst, last){
+//     let s =" ";
+//  let full = fst+s+last;
+//  return full;
 
     
 
+// }
+// console.log(name("tanya","kashyap"))
+
+
+
+// function area(l,w){
+// let sum =2*(l+w);
+// return sum;
+// }
+// console.log(area(2,4))
+
+
+
+// function a(r){
+//     const pi =3.14
+//     let sum1 =2*pi*r;
+//     return sum1;
+//     }
+//     console.log(area(4))
+
+
+//     printArr = (arr) => {
+//         arr.forEach(function (ar) {
+//             console.log("new",ar);
+//         })
+//     }
+//     printArr([3, 4, 5])
+function compareAge(yourAge) {
+
 }
-console.log(name("tanya","kashyap"))
 
-
-
-function area(l,w){
-let sum =2*(l+w);
-return sum;
+// DO NOT MODIFY THIS. its for used for testing the solution
+for (let i = 0; i < 3; i++) {
+  const yourAgeInput = prompt('Enter your age:', 0);
+  const yourAge1 = parseInt(yourAgeInput, 10);
+  compareAge(yourAge1)
 }
-console.log(area(2,4))
+let age1 =25;
+if(yourAgeInput>age){
+  console.log(` You are ${yourAgeInput-age}years older than me.`)}
+else if(yourAgeInput<age){
+  console.log(`i am ${age-yourAgeInput}years older than you.`)}
+else{
+  console.log( "We both are of the same age.")}
 
-
-
-function a(r){
-    const pi =3.14
-    let sum1 =2*pi*r;
-    return sum1;
-    }
-    console.log(area(4))
-
-
-    printArr = (arr) => {
-        arr.forEach(function (ar) {
-            console.log("new",ar);
-        })
-    }
-    printArr([3, 4, 5])
     

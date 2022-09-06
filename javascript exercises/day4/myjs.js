@@ -50,8 +50,29 @@
 
 // console.log(`${num} is odd number`)
 
-// let score = Number(prompt("enter your score"));
-// switch (true) {
+let score = Number(prompt("enter your score"));
+switch (true) {
+    case score >=80:
+        console.log("A");
+        break;
+    case score >=70:
+        console.log("B");
+        break;
+    case score >=60:
+        console.log("C");
+        break;
+    case score >=50:
+        console.log("D");
+        break;
+    case (score <= 50):
+        console.log("F");
+        break;
+    default:
+        console.log("no score assigned")
+
+}
+// let score = +prompt("enter your score");
+// switch (score) {
 //     case score > 80:
 //         console.log("A");
 //         break;
@@ -69,8 +90,7 @@
 //         break;
 //     default:
 //         console.log("no score assigned")
-// 
-
+// }
 
 
 // let a = 'JavaScript' 
@@ -248,50 +268,67 @@
 // console.log(companies)
 //  setInterval(0){}
 
-let set = new Set();
-for (let i = 0; i <= 10; i++) {
-    set.add(i);
-}
-console.log(set);
+// let set = new Set();
+// for (let i = 0; i <= 10; i++) {
+//     set.add(i);
+// }
+// console.log(set);
 
 
-const languages = [
-  'English',
-  'Finnish',
-  'English',
-  'French',
-  'Spanish',
-  'English',
-  'French',
-]
+// const languages = [
+//   'English',
+//   'Finnish',
+//   'English',
+//   'French',
+//   'Spanish',
+//   'English',
+//   'French',
+// ]
 
-const sets = new Set(languages)
-console.log(sets)
+// const sets = new Set(languages)
+// console.log(sets)
 
-const companies = new Set() // creating an empty set
-console.log(companies.size) // 0
+// const companies = new Set() // creating an empty set
+// console.log(companies.size) // 0
 
-companies.add('Google') // add element to the set
-companies.add('Facebook')
-companies.add('Amazon')
-companies.add('Oracle')
-companies.add('Microsoft')
-console.log(companies)
-let countries = ["nigeria", "U.S.A", "germany", "england", "italy"]
-let countriesLength = new Set();
-for (let i = 0; i < countries.length; i++){
-        countriesLength.add(countries[i])
-        countriesLength.add(countries[i].length);
-}
-console.log(countriesLength);
+// companies.add('Google') // add element to the set
+// companies.add('Facebook')
+// companies.add('Amazon')
+// companies.add('Oracle')
+// companies.add('Microsoft')
+// console.log(companies)
+// let countries = ["nigeria", "U.S.A", "germany", "england", "italy"]
+// let countriesLength = new Set();
+// for (let i = 0; i < countries.length; i++){
+//         countriesLength.add(countries[i])
+//         countriesLength.add(countries[i].length);
+// }
+// console.log(countriesLength);
 
-countries = [
-  ['Finland', 'Helsinki'],
-  ['Sweden', 'Stockholm'],
-  ['Norway', 'Oslo'],
-]
-const map = new Map(countries)
-console.log(map)
+// countries = [
+//   ['Finland', 'Helsinki'],
+//   ['Sweden', 'Stockholm'],
+//   ['Norway', 'Oslo'],
+// ]
+// const map = new Map(countries)
+// console.log(map)
 // console.log(map.size)
 
 
+// let year = Number(prompt("enter your year"));
+// if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
+//   console.log(year + ' is a leap year');
+// }
+let itCompanies =["facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle","Amazon"]
+console.log(itCompanies)
+// console.log(itCompanies.slice(0, 3));
+console.log(itCompanies.slice(itCompanies.length, 3))
+
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+console.log(shoppingCart)
+console.log(shoppingCart.unshift("meat"))
+
+let array = [100, 0, 50]
+
+console.log(Math.max(...array));
+// array.max()

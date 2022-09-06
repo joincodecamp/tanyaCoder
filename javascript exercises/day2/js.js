@@ -25,7 +25,7 @@ console.log(" last index value: ",sentence.lastIndexOf('because'))
 console.log(" search value: ", sentence.search("because"))   
 
 
-trimvalue ="               30 days of javascript  "
+trimvalue ="    30 days of javascript  "
 console.log("trim use cut whitespace: ",trimvalue.trim(''))
 
 console.log(" startwith(): ", value.startsWith('30 Days of Javascript')) 
@@ -77,7 +77,7 @@ console.log('slice out: ', string1.substring(31, 54));
 //  console.log(n3)
 let n3 = parseInt('10')==10
 console.log(n3)
-
+    
 
 // level 3
 
