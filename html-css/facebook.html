@@ -1,0 +1,210 @@
+<html>
+    <head>
+        <style>
+                body{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0px;
+                    background: rgb(236, 241, 243);
+                    height: 100%;
+                    
+                
+                }
+                .header{
+                   
+                    font-size: 35px; 
+                    color:rgb(56, 131, 206);
+                    text-align: center;
+                    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+                }
+                .table{
+                       height: 620px;
+                        width: 500px;
+                        background-color: white;
+                        padding: 2px;
+                        border-radius: 7px;
+                }
+                .h{
+                    text-align: center; 
+                    color: #1c1e21;
+                    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+                  }
+                  /* .inputs{
+                    height: 0%;
+                    width: 100%;
+                  } */
+                .customInput{
+                    margin: 10px;
+                     padding: 11px;
+                    height: 50px;
+                    width: 200px;
+                    border-radius: 7px;
+                    border: 1px solid #ccd0d5 ;
+    
+                    
+                 }
+                 .an input{
+                     margin: 10px;
+                     padding: 11px;
+                    height: 50px;
+                    width: 450px;
+                    border-radius: 7px;
+                    border: 1px solid#ccd0d5;
+                 }
+                 .b{
+                     font-size: 13px;
+                     color:  #555657;
+
+                 }
+                 .birth{
+                    
+                 }
+                 .input{
+                    margin: 10px;
+                     padding: 12px;
+                     height: 50px;
+                     width: 130px;
+                     border-radius: 7px;
+                     border: 1px solid#ccd0d5;
+                     
+                     
+                     
+                 }
+                 
+                 .getcon{
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: center;
+                 }
+                 .radiocontainer{
+                    border-radius: 7px;
+                    border: 1px solid#ccd0d5;
+                    align-items: center;
+                    margin: 10px 10px 0 10px;
+                     padding: 5px;
+                     height: 42px;
+                     width: 120px;
+
+                    
+                 }
+                 .text{
+                     padding: 0 25px 0 25px;
+                     font-size: 12px;
+                 }
+                 .buttoncontainer{
+                      width: 100%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+
+                
+                  }
+                  button{
+                      width: 200px;
+                      height: 40px;
+                      color: white;
+                      font-size: 20px;
+                      background-color: rgb(18, 136, 18);
+                      
+                  }
+
+                
+        </style>
+    </head>
+             <div class="full">
+                    <div class="header">
+                        <h1><b>facebook</b></h1>
+                    </div>
+                    <div class="table">
+                        <div class="h">
+                            <h2 >Create a new account</h2>
+                            <p>It's quick and easy.</p>
+                            <hr/>
+                                <div class ="inputss">
+                                    <div class="in">
+                                    <input class="customInput" type="text" placeholder="First name">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="customInput" type="text" placeholder="Last name">
+                                   
+                                </div>
+                                    <div class="an">
+                                    <input class="customInput" type="text" placeholder="Mobile no. or Email address">
+                    
+                                </div>
+                                    <div class="an">
+                                            <input class="customInput" type="password
+                                            " placeholder="New password">
+                                     </div>
+                                    <div class="b">
+                                        <p style=" text-align:left; margin-left:25px; margin-top: 3px; margin-bottom: 3px;"> Date of birth</p>
+                                      </div>
+                                      <div class="birth " >
+                                            <select class="input">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8"selected="1">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+
+                                             </select>
+                                           <select class="input">
+                                                            <option value="jan">jan</option>
+                                                            <option value="feb">feb</option>
+                                                            <option value="mar">mar</option>
+                                                            <option value="apr">apr</option>
+                                                            <option value="may">may</option>
+                                                            <option value="jun">jun</option>
+                                                            <option value="jul">jul</option>
+                                                            <option value="aug"selected="1">aug</option>
+                                                            <option value="sep">sep</option>
+                                                            <option value="oct">oct</option>
+        
+                                               </select>
+                                               <select class="input">
+                                                    <option value="2001">2001</option>
+                                                    <option value=2>2002</option>
+                                                    <option value="mar">2003</option>
+                                                    <option value="apr">2004</option>
+                                                    <option value="may">2005</option>
+                                                    <option value="jun">2006</option>
+                                                    <option value="jul">2007</option>
+                                                    <option value="aug"selected="1">2008</option>
+                                                    <option value="sep">2009</option>
+                                                    <option value="oct">2010</option>
+
+                                                 </select>
+                                      </div>
+                                      <div class="b">
+                                            <p style=" text-align:left; margin-left:25px; margin-top: 3px; margin-bottom: 3px;"> Gender</p>
+                                         </div>
+                                 </div>
+                                </div>
+                                      <div class="getcon">
+                                          <div class="radiocontainer">  <label>Female</label><input type="radio"></div>
+                                        <div class="radiocontainer">  <label>Male</label><input type="radio">  </div>
+                                            <div class="radiocontainer">  <label>Custom</label><input type="radio"> </div>   
+                                        
+                                        </div>
+                                    
+                                        <div class="text">
+                                        <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                                        </div>
+                                        <div class="buttoncontainer">
+                                            <button>Login</button>
+
+                                        </div>
+                                        <div class="lst">
+
+                                        <a href="./sign.html" ><p style="text-align: center;"><b>Already have an account</b></p></a>
+                                        </div>
+                                        </div>
+                   
+            </div>  
+
+</body>
+</html>
