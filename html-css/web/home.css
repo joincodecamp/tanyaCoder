@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+#header{
+    background: url(head.jpeg) no-repeat center/cover;
+    height: 50%;
+    margin-top: 46px
+
+}
+
+.left{
+    height: 80px;
+    margin-left: 60px;
+}
+.left img {
+    height: 100%
+}
+
+ .menu ul{
+    margin-left: 128px;
+    font-family: fantasy;
+ }   
+
+.menu ul li {
+    display: inline-block;    
+    padding: 25px;
+
+
+}
+.but5{
+    border: none;
+    width: 211px;
+}
+
+
+.imghome1 img{
+    width: 100%;
+}
+.content{
+    padding: 60px
+}
+
+button{
+    width: 100%;
+}
+.b1{
+    width: 124%;
+    
+}
+button.btn.btn-info.b1 {
+    margin-left: 10px;
+}
+.buy{
+    width: 120px;
+}
+.group1{
+    width: 125%;
+    margin-left: 7px;
+}
+.aw{
+    color: black;
+}
+.imghome {
+    margin-left: 96px;
+}
+.homee{
+    height: 302px;
+    width: 370px;
+}
+#form{
+    background: url(room.jpeg) no-repeat center/cover;
+    height: 50%;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form input[type=number]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    height: 0;
+    width: 80%;
+    color: #fff;
+    font-size: 15px;
+    background: transparent;
+}
+input.bg-info.text-white.butsend {
+    height: 48px;
+    font-size: 14px;
+    width: 134px;
+    font-weight: bold;
+    border: none;}
+/* input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    
+  } */
+  .bio{
+    font-size: 14px;
+  }
+  .v{
+    
+        width: 190px;
+        height: 190px;
+        border:2px solid #fff;
+       
+        -moz-box-shadow: 0px 6px 5px #ccc;
+        -webkit-box-shadow: 0px 6px 5px #ccc;
+        box-shadow: 0px 6px 5px #ccc;
+        -moz-border-radius:190px;
+        -webkit-border-radius:190px;
+        border-radius:190px;
+      
+  }
+ .page{
+   
+    font-weight: bold;
+
+
+ }
+ 
+ p.solid {border-style: solid ;
+    border-color: #fff;
+    width: 175px;
+    padding: 11px;
+}
+.PAGE1{
+    background: url(plantblur.jpeg) no-repeat center/cover;
+    
+    padding: 100px;
+}
+.big{
+    margin: 0 auto;
+}
+.PAGE2{
+    background: url(blur.jpeg) no-repeat center/cover;
+    
+    padding: 100px;
+}
+/* .BOLD{
+    font-weight: bold;
+} */
+.solid1{
+    border-style: solid;
+    border-color: #fff;
+    width: 176px;
+    padding: 13px;
+    height: 54px;
+    font-size: 12px;
+    margin: 0 auto;
+
+}
+.lorem{
+    font-size: 13px;
+}
+.sectionend{
+    background-color: rgb(194, 229, 217);
+    height: 70%;
+    text-align: center;
+}
+.ribbonn{
+    color: cadetblue;
+    font-size: 64px;
+}
+.s{
+  color: rgb(255, 255, 0);  
+  font-size: 18px;
+}
+.o{
+    font-size: 30px;
+}
+.a{
+    font-size: 12px;
+}
+.row button{
+    text-align: center;
+}
+@media only screen and (max-width: 642px) {
+    .imghome {
+      margin-left: -59px;
+    }
+  }
+
+  @media only screen and (max-width: 642px) {
+    .b1 {
+ width: 104%;
+    }
+    }
+    @media only screen and (max-width: 642px) {
+        .left {
+     margin-left: -153px;
+        }
+        }
+        @media only screen and (max-width: 320px) {
+            .left {
+         margin-left: 1px;
+            }
+            }
+        /* @media only screen and (max-width: 642px) {
+            .menu ul {
+                margin-top: -89px;
+                width: 210px;
+                margin-left: 298px;
+            }
+            } */
+            /* @media only screen and (max-width: 786px) {
+                .menu ul {
+                    margin-top: -89px;
+                    width: 210px;
+                    margin-left: 436px;
+                }
+                }
+            @media only screen and (max-width: 320px) {
+                .menu ul {
+                    margin-top: -89px;
+                    width: 210px;
+                    margin-left: 94px;
+                }
+                } */
+                @media only screen and (max-width: 320px) {
+                    .input-group.gap-2.bg-white.p-3.b1 {
+                        width: 117%;
+                        margin-left: -23px;
+                    }
+                
+                    }
+                    @media only screen and (max-width: 786px) {
+                        .b1 {
+                           
+                        width: 190%;
+                    
+                        }
+                    
+                        }
+  
+  @media only screen and (max-width: 786px) {
+    .imghome {
+        margin-left: 35px;
+    }
+
+    }
+  @media only screen and (max-width: 320px) {
+    .m {
+       
+        margin-left: -24px;
+    }
+    }
+
+@media only screen and (max-width: 1024px) {
+  .menu ul{
+     
+      margin-left: 28px;
+  }
+  }
