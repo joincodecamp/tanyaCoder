@@ -9,6 +9,11 @@
 const http = require("http")
 const fs = require("fs")
 
+const mongoose = require("mongoose")
+mongoose.connect("mongodb://localhost:27017/db")
+.then(()=>console.log("connected"))
+.catch((err)=>console.log(err))
+
 const server = http.createServer((req,res)=>{
     console.log(req.url)
     if(req.url === "/home"){
